@@ -1,0 +1,275 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header-area{
+	background: #3B5998;
+	padding: 20px;
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+
+
+.wrapper{
+	width: 80%;
+	margin: 0px auto;
+}
+.header-area .logo-area{
+	width: 40%;
+	float: left;
+}
+
+.header-area .logo-area img{
+	width: 200px;
+	hight: 100px;
+}
+
+.header-area .login-area{
+	width: 60%;
+	overflow: hidden;
+}
+
+.header-area .login-area form{
+	float: right;
+}
+
+.header-area .login-area label{
+	color: #FFF;
+}
+
+.header-area .login-area input {
+	display: block;
+	margin: 3px 10px 3px 0px;
+	padding: 2px;
+}
+.header-area .login-area a{
+	color: #9CABC5;
+	text-decoration: none;
+}
+.header-area .login-area a:hover{
+	text-decoration: underline;
+}
+
+.header-area .login-area button{
+	background: #4267b2;
+	border: 1px solid #29487d;
+	color: white;
+	padding: 4px 8px;
+	display: inline-block;
+	margin-top: 18px;
+
+}
+
+.header-area .login-area .emai-area{
+	float: left;
+}
+.header-area .login-area .pass-area{
+	float: left;
+}
+
+.header-area .login-area .submit-area{
+	overflow: hidden;
+}
+
+
+
+
+
+/*@media only screen and (max-width: 768px) {
+   
+	.logo-area img{
+		width: 50%;
+	}
+
+	.header-area .logo-area{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.header-area .login-area{
+		width: 100%;
+	}
+	.header-area .login-area .emai-area{
+		float: none;
+		width: 100%;
+	}
+
+	.header-area .login-area form{
+		float: none;
+	}
+
+	.header-area .login-area input{
+		width: 100%;
+		padding: 12px;
+	}
+
+	.header-area .login-area .pass-area{
+		float: none;
+		width: 100%;
+	}
+
+	.header-area .login-area button{
+		display: block;
+		width: 100%;
+		padding: 12px;
+		font-size: 18px;
+	}
+
+	.header-area .login-area label{
+		font-size: 18px;
+	}
+
+
+	.header-area .login-area a{
+		font-size: 18px;
+	}
+*/
+
+	.content-left {
+    display: none;
+	}
+
+}
+
+
+
+.content-area{
+	background: linear-gradient(#FEFEFE,#D3D8E8);
+}
+.content-left{
+	float: left;
+}
+
+.content-right{
+	overflow: hidden;
+	padding: 10px 15px;
+}
+.content-right form{
+	padding: 2px;
+}
+.content-right input[type="text"]{
+	display: block;
+	width: 98%;
+	padding: 12px 6px;
+	margin-top: 6px;
+	font-size: 16px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid blue; 
+}
+
+
+.user-name input[type="text"]{
+	display: inline-block;
+	width: 46.8%;
+}
+.select-area{
+	overflow: hidden;
+}
+
+select{
+	padding: 7px;
+	display: inline-block;
+}
+
+.provide {
+    font-size: 14px;
+    display: inline-block;
+    width: 33%;
+    overflow: hidden;
+    margin-top: 3px;
+}
+
+.radio-area{
+	overflow: hidden;
+	margin-top: 5px;
+}
+.radio-area label{
+	margin-right: 8px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.Terms p{
+	font-size: 12px;
+	font-family: tahoma;
+	width: 80%;
+	color:  #777777;
+}
+.Terms a{
+	text-decoration: none;
+	color:  #3691CD;
+}
+
+.Terms a:hover{
+	text-decoration: underline;
+}
+
+form .submitbutn{
+	display: inline-block;
+	width: 45%;
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-size: 22px;
+    color: white;
+    padding: 5px 25px;
+    font-family: tahoma;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+.create-page p{
+	color:  #777777;
+	font-family: tahoma;
+}
+
+.create-page a{
+	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+
+body{
+	background: red;
+}
+.header-area .logo-area{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+.header-area .login-area .emai-area {
+    float: none;
+    width: 100%;
+    display: block;
+}
+
+.header-area .login-area .pass-area {
+    float: none;
+    width: 100%;
+    display: block;
+}
+
+.header-area .login-area {
+    width: 100%;
+
+}
+
+.header-area .login-area form {
+    float: none;
+}
+
+.header-area .login-area form input{
+	width: 100%;
+	margin: 5px 0px;
+
+}
+
+}
